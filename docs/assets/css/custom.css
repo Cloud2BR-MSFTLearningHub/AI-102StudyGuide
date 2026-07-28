@@ -1,0 +1,75 @@
+:root {
+  --azure-navy: #003366;
+  --azure-blue: #004a99;
+  --azure-blue-hover: #003874;
+}
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: var(--azure-navy);
+  --md-primary-fg-color--light: var(--azure-blue);
+  --md-primary-fg-color--dark: #00264d;
+  --md-accent-fg-color: var(--azure-blue);
+}
+
+.md-header__button.md-logo img {
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+}
+
+.md-typeset {
+  font-size: 0.8rem;
+}
+
+.md-typeset a {
+  color: var(--azure-blue);
+}
+
+.md-typeset a:hover {
+  color: var(--azure-blue-hover);
+}
+
+.md-typeset img {
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  display: block;
+  height: auto;
+  margin: 1rem auto;
+  max-width: 100%;
+}
+
+.md-typeset table:not([class]) {
+  border: 1px solid #9fb9d2;
+  border-collapse: separate;
+  border-radius: 6px;
+  border-spacing: 0;
+  overflow: hidden;
+}
+
+.md-typeset table:not([class]) th,
+.md-typeset table:not([class]) td {
+  border-bottom: 1px solid #c2d4e5;
+  border-right: 1px solid #c2d4e5;
+  padding: 0.6em 0.75em;
+  vertical-align: top;
+}
+
+.md-typeset table:not([class]) th {
+  background: #eaf2fa;
+  color: #10253d;
+}
+
+.md-typeset table:not([class]) th:last-child,
+.md-typeset table:not([class]) td:last-child {
+  border-right: 0;
+}
+
+.md-typeset table:not([class]) tr:last-child td {
+  border-bottom: 0;
+}
+
+@media screen and (min-width: 76.25em) {
+  .md-grid {
+    max-width: 96%;
+  }
+}

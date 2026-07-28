@@ -1,14 +1,7 @@
-# Computer Vision & Natural Languange Processing: Sample Questions and Answers 
+# Computer Vision & Natural Language Processing: Sample Questions and Answers
 
-Costa Rica
-
-[![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/) [Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
-
-Last updated: 2025-08-01
-
-----------
-
-> [!NOTE]
+> **Note**
+>
 > The questions and answers provided in this study guide are for practice purposes only and are not official practice questions.
 > They are intended to help you prepare for the [AI-102 Microsoft certification exam](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/?practice-assessment-type=certification).
 > For additional preparation materials and the most up-to-date information, please refer to the [official Microsoft documentation](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/?practice-assessment-type=certification#certification-prepare-for-the-exam).
@@ -16,7 +9,7 @@ Last updated: 2025-08-01
 > - Implement computer vision solutions <br/> 
 > - Implement natural language processing solutions
 
-<details>
+<details markdown="1">
 <summary><b>List of References </b> (Click to expand)</summary>
 
 - [Microsoft Certified: Azure AI Engineer Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/) - Overview of the AI-102 certification, including skills measured and exam details.
@@ -25,7 +18,7 @@ Last updated: 2025-08-01
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>List of questions/answers </b> (Click to expand)</summary>
 
 - [Q1: Making a Direct API Request Using Smart Cropping Feature](#q1-making-a-direct-api-request-using-smart-cropping-feature)
@@ -50,7 +43,8 @@ Last updated: 2025-08-01
 
 </details>
 
-> [!TIP]
+> **Tip**
+>
 > **Computer Vision Services:**
 
 | Service | Use Case | Key Features |
@@ -60,7 +54,8 @@ Last updated: 2025-08-01
 | **Face** | Face detection and recognition | Face detection, identification, verification |
 | **Form Recognizer** | Document processing | Extract text, tables, key-value pairs from forms |
 
-> [!TIP]
+> **Tip**
+>
 > **Natural Language Processing Services:**
 
 | Service | Use Case | Key Features |
@@ -70,7 +65,8 @@ Last updated: 2025-08-01
 | **QnA Maker** | Knowledge base chatbots | Create FAQ bots, question-answer pairs |
 | **Translator** | Text translation | Multi-language translation, document translation |
 
-> [!TIP]
+> **Tip**
+>
 > **Computer Vision API Endpoints:**
 
 | Endpoint | Purpose | Parameters |
@@ -81,7 +77,8 @@ Last updated: 2025-08-01
 | **generateThumbnail** | Smart cropping thumbnails | width, height, smartCropping |
 | **describe** | Image description generation | maxCandidates, language |
 
-> [!TIP]
+> **Tip**
+>
 > **Text Analytics Capabilities:**
 
 | Feature | Description | Output |
@@ -91,7 +88,8 @@ Last updated: 2025-08-01
 | **Language Detection** | Identify text language | Language code + confidence |
 | **Named Entity Recognition** | Extract entities | People, places, organizations, etc. |
 
-> [!TIP]
+> **Tip**
+>
 > **Custom Vision Project Types:**
 
 | Project Type | Use Case | Output |
@@ -101,7 +99,8 @@ Last updated: 2025-08-01
 | **Multi-class** | One tag per image | Single category assignment |
 | **Multi-label** | Multiple tags per image | Multiple category assignments |
 
-> [!TIP]
+> **Tip**
+>
 > **Custom Vision Domains:**
 
 | Domain | Use Case | Optimization |
@@ -112,7 +111,8 @@ Last updated: 2025-08-01
 | **Landmarks** | Buildings and monuments | Landmark recognition |
 | **Retail** | Products and items | Retail-specific features |
 
-> [!TIP]
+> **Tip**
+>
 > **Form Recognizer Supported Formats:**
 
 | Format | Max Size | Use Case |
@@ -123,7 +123,8 @@ Last updated: 2025-08-01
 | **BMP** | 50 MB | Image documents |
 | **TIFF** | 50 MB | Multi-page images |
 
-> [!TIP]
+> **Tip**
+>
 > **Azure AI Services Authentication:**
 
 | Method | Use Case | Security Level |
@@ -548,11 +549,3 @@ For each of the following statements, select if the statement is true.
 - [ ] The code will add a face image to a person object in a person group. ✅ `This is correct because the code sends a POST request to add a face image to a person object in a person group.`
 - [ ] The code will work for up to 10,000 people. ❌ `This is incorrect because the Face API supports up to 1,000,000 people per person group.`
 - [ ] `add_face` can be called multiple times to add multiple face images to a person. ✅ `This is correct because the `add_face` function can be called multiple times to add multiple face images to a person.`
-
-<!-- START BADGE -->
-<div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-1436-limegreen" alt="Total views">
-  <p>Refresh Date: 2025-08-05</p>
-</div>
-<!-- END BADGE -->
-

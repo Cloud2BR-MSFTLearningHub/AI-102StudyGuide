@@ -1,14 +1,7 @@
 # Planning and Managing Azure AI Solutions: Sample Questions and Answers 
 
-Costa Rica
-
-[![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/) [Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
-
-Last updated: 2025-08-05
-
-----------
-
-> [!NOTE]
+> **Note**
+>
 > The questions and answers provided in this study guide are for practice purposes only and are not official practice questions.
 > They are intended to help you prepare for the [AI-102 Microsoft certification exam](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/?practice-assessment-type=certification).
 > For additional preparation materials and the most up-to-date information, please refer to the [official Microsoft documentation](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/?practice-assessment-type=certification#certification-prepare-for-the-exam).
@@ -18,7 +11,7 @@ Last updated: 2025-08-05
 > - Implement knowledge mining and document intelligence solutions <br/>
 > - Implement generative AI solutions
 
-<details>
+<details markdown="1">
 <summary><b>List of References </b> (Click to expand)</summary>
 
 - [Microsoft Certified: Azure AI Engineer Associate](https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/) - Overview of the AI-102 certification, including skills measured and exam details.
@@ -27,7 +20,7 @@ Last updated: 2025-08-05
 
 </details>
 
-<details>
+<details markdown="1">
 <summary><b>List of questions/answers </b> (Click to expand)</summary>
 
 - [Q1: Configuring Index Attributes for Azure AI Search](#q1-configuring-index-attributes-for-azure-ai-search)
@@ -78,7 +71,8 @@ Last updated: 2025-08-05
 
 </details>
 
-> [!TIP]
+> **Tip**
+>
 > **Azure AI Service Deployment Patterns:**
 
 | Pattern | Use Case | Benefits |
@@ -88,7 +82,8 @@ Last updated: 2025-08-05
 | **Containerized Deployment** | On-premises or edge scenarios | Data sovereignty, reduced latency |
 | **Hybrid Deployment** | Mixed cloud/on-premises needs | Flexibility, compliance requirements |
 
-> [!TIP]
+> **Tip**
+>
 > **Azure OpenAI Resource Planning:**
 
 | Consideration | Standard Tier | Provisioned Tier |
@@ -98,7 +93,8 @@ Last updated: 2025-08-05
 | **Cost Model** | Variable | Fixed monthly |
 | **Use Case** | Development, testing | Production, high-volume |
 
-> [!TIP]
+> **Tip**
+>
 > **Container Deployment Best Practices:**
 
 | Requirement | Solution | Configuration |
@@ -108,7 +104,8 @@ Last updated: 2025-08-05
 | **EULA Acceptance** | Legal requirement | `Eula=accept` |
 | **Resource Limits** | Performance optimization | `--memory 4g --cpus 1` |
 
-> [!TIP]
+> **Tip**
+>
 > **Azure AI Search Index Optimization:**
 
 | Attribute | Purpose | Impact on Performance |
@@ -119,7 +116,8 @@ Last updated: 2025-08-05
 | **retrievable** | Return in results | Required for display |
 | **sortable** | Enable sorting | Additional processing overhead |
 
-> [!TIP]
+> **Tip**
+>
 > **Responsible AI Implementation Checklist:**
 
 | Principle | Implementation | Validation Method |
@@ -132,7 +130,8 @@ Last updated: 2025-08-05
 | **Transparency** | Model explainability, documentation | Clear communication |
 | **Accountability** | Human oversight, audit trails | Review processes |
 
-> [!TIP]
+> **Tip**
+>
 > **Azure AI Services Throttling Management:**
 
 | Service Tier | Requests/Second | Mitigation Strategy |
@@ -142,7 +141,8 @@ Last updated: 2025-08-05
 | **Premium** | Highest limits | Add replicas, optimize queries |
 | **Custom** | Negotiated | Enterprise agreements |
 
-> [!TIP]
+> **Tip**
+>
 > **Network Security Configuration:**
 
 | Security Level | Configuration | Use Case |
@@ -152,7 +152,8 @@ Last updated: 2025-08-05
 | **Service Endpoints** | VNet integration | Azure-to-Azure communication |
 | **Private Endpoints** | Private connectivity | Maximum security |
 
-> [!TIP]
+> **Tip**
+>
 > **Authentication Methods Comparison:**
 
 | Method | Security Level | Implementation Complexity | Cost |
@@ -162,7 +163,8 @@ Last updated: 2025-08-05
 | **Managed Identity** | Highest | Low (for Azure resources) | None |
 | **Service Principal** | High | High | None |
 
-> [!TIP]
+> **Tip**
+>
 > **Cost Optimization Strategies:**
 
 | Strategy | Implementation | Savings Potential |
@@ -173,7 +175,8 @@ Last updated: 2025-08-05
 | **Container Deployment** | On-premises hosting | Variable |
 | **Multi-service Resources** | Consolidated billing | 10-20% |
 
-> [!TIP]
+> **Tip**
+>
 > **Monitoring and Diagnostics Setup:**
 
 | Monitoring Type | Tool | Key Metrics |
@@ -183,7 +186,8 @@ Last updated: 2025-08-05
 | **Usage** | Cost Management | Request volume, costs |
 | **Security** | Azure Security Center | Access patterns, threats |
 
-> [!TIP]
+> **Tip**
+>
 > **Development Environment Setup:**
 
 | Environment | Configuration | Purpose |
@@ -193,7 +197,8 @@ Last updated: 2025-08-05
 | **Staging** | Production-like, private access | Pre-production validation |
 | **Production** | High-tier, secured access | Live workloads |
 
-> [!TIP]
+> **Tip**
+>
 > **Data Residency and Compliance:**
 
 | Requirement | Implementation | Services Affected |
@@ -203,7 +208,8 @@ Last updated: 2025-08-05
 | **SOC 2** | Audit compliance, access controls | All AI services |
 | **FedRAMP** | Government cloud deployment | Limited services |
 
-> [!TIP]
+> **Tip**
+>
 > **Service Integration Patterns:**
 
 | Pattern | Use Case | Implementation |
@@ -213,7 +219,8 @@ Last updated: 2025-08-05
 | **Batch Processing** | Large-scale analysis | Logic Apps + AI Services |
 | **API Gateway** | Centralized access | API Management + AI Services |
 
-> [!TIP]
+> **Tip**
+>
 > **Performance Optimization:**
 
 | Optimization | Technique | Benefit |
@@ -223,7 +230,8 @@ Last updated: 2025-08-05
 | **Async Processing** | Non-blocking operations | Better scalability |
 | **Load Balancing** | Distribute requests | Higher availability |
 
-> [!TIP]
+> **Tip**
+>
 > **Disaster Recovery Planning:**
 
 | Component | Strategy | Recovery Time |
@@ -233,7 +241,8 @@ Last updated: 2025-08-05
 | **Configuration** | ARM templates | < 15 minutes |
 | **Custom Code** | CI/CD pipelines | < 10 minutes |
 
-> [!TIP]
+> **Tip**
+>
 > **Capacity Planning Guidelines:**
 
 | Service | Metric | Planning Factor |
@@ -243,7 +252,8 @@ Last updated: 2025-08-05
 | **Speech Services** | Concurrent connections | Expected users × 0.3 |
 | **Custom Vision** | Predictions/second | Historical data + growth |
 
-> [!TIP]
+> **Tip**
+>
 > **Security Best Practices:**
 
 | Security Layer | Implementation | Tools |
@@ -253,7 +263,8 @@ Last updated: 2025-08-05
 | **Data** | Encryption at rest/transit | Key Vault |
 | **Application** | Input validation, rate limiting | App Gateway |
 
-> [!TIP]
+> **Tip**
+>
 > **Troubleshooting Common Issues:**
 
 | Issue | Symptoms | Resolution |
@@ -263,7 +274,8 @@ Last updated: 2025-08-05
 | **Timeout** | Request timeouts | Optimize queries, increase limits |
 | **Quality** | Poor results | Retrain models, validate data |
 
-> [!TIP]
+> **Tip**
+>
 > **Migration Strategies:**
 
 | Migration Type | Approach | Considerations |
@@ -273,28 +285,32 @@ Last updated: 2025-08-05
 | **Tier Change** | In-place upgrade | Brief downtime |
 | **Architecture** | Phased migration | Gradual transition |
 
-> [!TIP]
+> **Tip**
+>
 > Planning Phase
 1. **Assess Requirements**: Understand performance, security, and compliance needs
 2. **Choose Architecture**: Select appropriate deployment patterns
 3. **Design for Scale**: Plan for future growth and peak loads
 4. **Security First**: Implement defense in depth from the start
 
-> [!TIP]
+> **Tip**
+>
 > Implementation Phase:
 1. **Start Small**: Begin with development/test environments
 2. **Automate Deployment**: Use Infrastructure as Code (IaC)
 3. **Monitor Everything**: Set up comprehensive monitoring
 4. **Test Thoroughly**: Validate performance and security
 
-> [!TIP]
+> **Tip**
+>
 > Operations Phase:
 1. **Monitor Continuously**: Track performance and costs
 2. **Optimize Regularly**: Review and adjust configurations
 3. **Plan Capacity**: Anticipate growth and scaling needs
 4. **Maintain Security**: Keep up with security updates
 
-> [!TIP]
+> **Tip**
+>
 > Governance:
 1. **Document Everything**: Maintain architectural decisions
 2. **Establish Policies**: Define usage and security guidelines
@@ -581,7 +597,8 @@ using (var recognizer = ___________________________ (speechConfig, audioConfig))
 - [ ] the FormRecognizerClient client and the StartRecognizeReceiptsFromUri method ✅: `This is correct because the FormRecognizerClient client and the StartRecognizeReceiptsFromUri method are used to extract data from receipts using the prebuilt receipt model.`
 
 ### Tip (Reference)
-> [!TIP]
+> **Tip**
+>
 > Find below a quick reference:
 
 | Service                  | Client                  | Method                                      | Description|
@@ -731,7 +748,8 @@ To detect the language of the input text: ___________________________
 - [ ] Mounts ❌: `This is incorrect because Mounts are used for mounting volumes and directories, not for specifying billing information.`
 - [ ] Billing ✅: `This is correct because the Billing parameter specifies the endpoint URI for billing purposes, which is required to run the Anomaly Detector container.`
 
-> [!TIP]
+> **Tip**
+>
 > This command ensures that the Anomaly Detector service runs in a Docker container on Server1, with the necessary configurations for memory, CPU, and network settings:
 
 ```bash
@@ -892,10 +910,3 @@ ApiKey={API_KEY}
 - [ ] Custom neural ✅: `This is correct because a custom neural model is suitable for extracting data from documents with inconsistent layouts, such as hand-written survey responses.`
 - [ ] Custom template ❌: `This is incorrect because custom template models are better suited for documents with consistent layouts.`
 - [ ] Identity document (ID) ❌: `This is incorrect because identity document models are specifically designed for processing identity documents, not survey responses.`
-
-<!-- START BADGE -->
-<div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-1436-limegreen" alt="Total views">
-  <p>Refresh Date: 2025-08-05</p>
-</div>
-<!-- END BADGE -->
