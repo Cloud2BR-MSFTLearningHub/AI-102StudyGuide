@@ -73,3 +73,182 @@
     max-width: 96%;
   }
 }
+
+/* Shared learning-site presentation, aligned with the GH-300 reference. */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #003366;
+  --md-primary-fg-color--light: #004a99;
+  --md-primary-fg-color--dark: #00264d;
+  --md-primary-bg-color: #ffffff;
+  --md-typeset-a-color: #004a99;
+  --md-accent-fg-color: #004a99;
+  --learning-title-color: #003366;
+  --learning-table-line: #c2d4e5;
+  --learning-table-header: #eaf2fa;
+  --learning-table-text: #10253d;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #003366;
+  --md-primary-bg-color: #ffffff;
+  --md-typeset-a-color: #93c5fd;
+  --md-accent-fg-color: #93c5fd;
+  --learning-title-color: #bad7f5;
+  --learning-table-line: #40536b;
+  --learning-table-header: #193754;
+  --learning-table-text: #e5f1ff;
+}
+
+.md-content__inner.md-typeset {
+  font-size: 0.8rem;
+  line-height: 1.65;
+}
+
+.md-typeset > h1,
+.md-typeset > h2,
+.md-typeset > h3 {
+  color: var(--learning-title-color);
+}
+
+.md-sidebar .md-nav,
+.md-sidebar .md-nav__title {
+  font-size: 0.7rem;
+}
+
+.md-sidebar .md-nav .md-nav__item--section > .md-nav__link,
+.md-sidebar .md-nav--primary label.md-nav__link {
+  font-size: 0.65rem;
+  letter-spacing: 0.035em;
+}
+
+.md-tabs__link,
+.md-tabs__link:hover {
+  color: var(--md-primary-bg-color);
+}
+
+.md-header__button.md-logo img {
+  border-radius: 50%;
+  height: 2rem;
+  object-fit: cover;
+  width: 2rem;
+}
+
+.md-typeset a {
+  color: var(--md-typeset-a-color);
+  overflow-wrap: anywhere;
+}
+
+.md-typeset a:hover:not(.md-button):not(.guide-card):not(.home-card) {
+  color: var(--md-typeset-a-color);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.md-typeset .md-button--primary,
+.md-typeset .md-button:hover,
+.md-typeset .md-button:focus-visible {
+  background-color: var(--md-primary-fg-color);
+  border-color: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+}
+
+.md-typeset a:focus-visible,
+.md-typeset button:focus-visible,
+.md-sidebar a:focus-visible {
+  outline: 3px solid var(--md-typeset-a-color);
+  outline-offset: 3px;
+}
+
+.md-header a:focus-visible,
+.md-header label:focus-visible,
+.md-tabs a:focus-visible {
+  outline: 3px solid #ffffff;
+  outline-offset: 3px;
+}
+
+.md-typeset > h1 + p,
+.md-typeset > h1 + p + p,
+.md-typeset > h1 + p + p + p {
+  color: inherit;
+  display: block;
+  font-size: inherit;
+  margin: 1em 0;
+}
+
+.md-typeset img[src*="shields.io"],
+.md-typeset img[src*="badge.svg"],
+.md-typeset img[src*="komarev.com"],
+.md-typeset img[src*="visitor-badge"],
+.md-typeset img[src*="/badges/"],
+.md-typeset img[src*="total_views"],
+.md-typeset img[src*="views-counter"] {
+  border: 0;
+  border-radius: 0;
+  display: inline-block;
+  height: auto;
+  margin: 0.15rem 0.25rem 0.15rem 0;
+  max-width: 100%;
+  vertical-align: middle;
+  width: auto;
+}
+
+.md-typeset table:not([class]) {
+  border: 1px solid var(--learning-table-line);
+  border-collapse: separate;
+  border-radius: 6px;
+  border-spacing: 0;
+}
+
+.md-typeset table:not([class]) th,
+.md-typeset table:not([class]) td {
+  border-bottom: 1px solid var(--learning-table-line);
+  padding: 0.6em 0.75em;
+  vertical-align: top;
+}
+
+.md-typeset table:not([class]) th {
+  background: var(--learning-table-header);
+  color: var(--learning-table-text);
+}
+
+.md-typeset table:not([class]) tr:last-child td {
+  border-bottom: 0;
+}
+
+.md-typeset__scrollwrap {
+  overflow-x: auto;
+}
+
+.md-typeset pre > code {
+  overflow-wrap: normal;
+}
+
+[data-md-color-scheme="slate"] .md-sidebar .md-nav__link[href] {
+  color: var(--md-default-fg-color);
+}
+
+[data-md-color-scheme="slate"] .md-sidebar .md-nav__link--active,
+[data-md-color-scheme="slate"] .md-sidebar .md-nav__link[href]:hover {
+  color: var(--md-typeset-a-color);
+}
+
+[data-md-color-scheme="slate"] .guide-card {
+  background: var(--md-default-bg-color);
+  border-color: var(--learning-table-line);
+  color: var(--md-default-fg-color);
+}
+
+@media screen and (min-width: 76.25em) {
+  .md-grid {
+    max-width: 96%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .md-typeset *,
+  .md-nav__link {
+    animation-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
